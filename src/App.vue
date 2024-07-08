@@ -30,7 +30,7 @@ export default {
 </script>
 
 <template>
-  <main class="py-[153px] bg-veryDarkBlue">
+  <main class="py-[153px] bg-veryDarkBlue sm:pt-[194px]">
     <div
       class="bg-darkBlue w-[87%] rounded-[13px] mx-auto max-w-[416px] sm:rounded-[31px]"
     >
