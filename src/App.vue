@@ -21,7 +21,9 @@ export default {
     },
 
     submitRating() {
-      this.isRated = true;
+      if ([1, 2, 3, 4, 5].includes(this.rating)) {
+        this.isRated = true;
+      }
     },
   },
 };
