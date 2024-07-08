@@ -9,11 +9,11 @@ export default {
 </script>
 
 <template>
-  <div class="p-[27px_20px_31px_24px] text-center sm:p-[37px_34px_31px_34px]">
+  <div class="p-[27px_20px_31px_24px] text-center sm:p-[29px_25px_31px_25px]">
     <div class="w-fit mx-auto mt-[13px]">
       <svg
         viewBox="0 0 162 108"
-        class="w-[162px] aspect-[162/108] sm:w-[181px]"
+        class="w-[162px] aspect-[162/108] sm:w-[164px]"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g fill="none">
@@ -103,19 +103,19 @@ export default {
       </svg>
     </div>
     <div
-      class="text-orange text-[15px] bg-lightGray/10 p-[9px_14px] w-fit mx-auto mt-[25px] tracking-[0.2px] rounded-[18px/50%] flex justify-center items-center sm:text-[16px] sm:mt-[36px] sm:px-[22px]"
+      class="text-orange text-[15px] bg-lightGray/10 p-[9px_14px] w-fit mx-auto mt-[25px] tracking-[0.2px] rounded-[18px/50%] flex justify-center items-center sm:text-[14px] sm:mt-[30px] sm:px-[22px]"
     >
       <span class="h-[17px] inline-block"
         >You selected {{ rating }} out of 5</span
       >
     </div>
     <h2
-      class="text-white font-bold text-[26px] mt-[32px] sm:mt-[42px] sm:text-[31px]"
+      class="text-white font-bold text-[26px] mt-[32px] sm:mt-[33px] sm:text-[28px]"
     >
       Thank you!
     </h2>
     <p
-      class="text-lightGray text-[15px] mt-[11px] leading-[24px] [word-spacing:1px] sm:mt-[5px] sm:leading-[26px] sm:text-[16px] sm:font-medium sm:pe-[15px]"
+      class="text-lightGray text-[15px] mt-[11px] leading-[24px] [word-spacing:1px] sm:mt-[5px] sm:leading-[24px] sm:text-[15px] sm:font-medium sm:pe-[10px]"
     >
       We appreciate you taking the time to give a rating. If you ever need more
       support, don't hesitate to get in touch!

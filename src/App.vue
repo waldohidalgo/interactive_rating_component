@@ -32,7 +32,7 @@ export default {
 <template>
   <main class="py-[153px] bg-veryDarkBlue">
     <div
-      class="bg-darkBlue w-[87%] rounded-[13px] mx-auto max-w-[458px] sm:rounded-[31px]"
+      class="bg-darkBlue w-[87%] rounded-[13px] mx-auto max-w-[416px] sm:rounded-[31px]"
     >
       <Answer v-if="isRated" :rating="rating" />
       <Question

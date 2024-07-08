@@ -9,11 +9,11 @@ export default {
 </script>
 
 <template>
-  <div class="p-[27px_20px_31px_24px] sm:p-[37px_42px_31px_36px]">
-    <div class="inline-block p-[11px] bg-lightGray/10 rounded-full sm:p-[20px]">
+  <div class="p-[27px_20px_31px_24px] sm:p-[33px_48px_31px_32px]">
+    <div class="inline-block p-[11px] bg-lightGray/10 rounded-full sm:p-[18px]">
       <svg
         viewBox="0 0 17 16"
-        class="w-[14px] aspect-square sm:w-[18px]"
+        class="w-[14px] aspect-square sm:w-[16px]"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -23,18 +23,18 @@ export default {
       </svg>
     </div>
     <h2
-      class="font-bold text-[24px] text-white mt-[15px] sm:mt-[27px] sm:text-[31px]"
+      class="font-bold text-[24px] text-white mt-[15px] sm:mt-[24px] sm:text-[28px]"
     >
       How did we do?
     </h2>
     <p
-      class="text-lightGray mt-[9px] text-[14px] sm:leading-[26px] sm:[word-spacing:0px] sm:font-semibold sm:text-[16px]"
+      class="text-lightGray mt-[9px] text-[14px] sm:leading-[24px] sm:[word-spacing:1px] sm:font-semibold sm:mt-[8px]"
     >
       Please let us know how we did with your support request. All feedback is
       appreciated to help us improve our offering!
     </p>
     <ul
-      class="grid grid-cols-5 mt-[26px] justify-items-center gap-[18px] sm:gap-[29px]"
+      class="grid grid-cols-5 mt-[26px] justify-items-center gap-[18px] sm:gap-[29px] sm:mt-[23px]"
     >
       <li
         v-for="i in [1, 2, 3, 4, 5]"
@@ -52,7 +52,7 @@ export default {
       </li>
     </ul>
     <button
-      class="w-full bg-orange text-[14px] text-veryDarkBlue rounded-full mt-[25px] py-[14px] tracking-[2px] font-bold flex justify-center items-center hover:bg-white sm:mt-[40px] sm:py-[16px] sm:text-[17px]"
+      class="w-full bg-orange text-[14px] text-veryDarkBlue rounded-full mt-[25px] py-[14px] tracking-[2px] font-bold flex justify-center items-center hover:bg-white sm:mt-[36px] sm:py-[14px] sm:text-[15px]"
       aria-label="Submit rating"
       @click="$emit('submitRating')"
     >
